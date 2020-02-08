@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+9th February, 2020
 
 ### Project Title
-Replace the Project Title
+BikeShare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+The project is about getting input from a user so data can be filtered.
 
 ### Files used
-Include the files used
+Files with data of bike sharing in Chicago, New York and Washington were used.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credit goes first and foremost to my wife Eva for giving all her support so I can do this course.
