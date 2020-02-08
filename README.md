@@ -8,6 +8,7 @@ BikeShare Data Analysis
 The project is about getting input from a user so data can be filtered.
 
 ### Files used
+Main script: bikeshare.py
 Files with data of bike sharing in Chicago, New York and Washington were used.
 
 ### Credits
