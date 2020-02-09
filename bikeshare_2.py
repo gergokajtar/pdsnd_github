@@ -99,7 +99,7 @@ def display_time_stats(data_frame):
     print('Most common start hour: ', hour_count_series.idxmax())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-' * 40)
+    print_separator()
 
 
 def display_stations_stats(data_frame):
@@ -122,7 +122,7 @@ def display_stations_stats(data_frame):
     print('Most common trip (start -> end): ', start_to_end_station_trip_count_series.idxmax())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-' * 40)
+    print_separator()
 
 
 def display_trip_duration_stats(data_frame):
@@ -138,7 +138,7 @@ def display_trip_duration_stats(data_frame):
     print('Mean travel time: ', data_frame['Trip Duration'].mean())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-' * 40)
+    print_separator()
 
 
 def display_user_stats(data_frame):
@@ -171,7 +171,7 @@ def display_user_stats(data_frame):
         print('No birth year stats available')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-' * 40)
+    print_separator()
 
 
 def print_lines(data_frame, number_of_lines_to_display):
@@ -206,6 +206,10 @@ def calculate_number_of_end_line(loop_number, number_of_lines_to_display, row_nu
 def display_lines(data_frame, number_of_end_line, number_of_start_line):
     print('Displaying lines {0} -> {1}'.format(number_of_start_line, number_of_end_line))
     print(data_frame[number_of_start_line:number_of_end_line])
+
+
+def print_separator:
+    print('-' * 40)
 
 
 if __name__ == "__main__":
