@@ -14,3 +14,4 @@ Files with data of bike sharing in Chicago, New York and Washington were used.
 
 ### Credits
 Credits for StackOverflow for helping me out.
+Credits for Udacity for giving this excellent course.
