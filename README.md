@@ -6,6 +6,7 @@ BikeShare Data Analysis
 
 ### Description
 The project is about getting input from a user so data can be filtered.
+User can choose the city, the month and the day for the filter setup.
 
 ### Files used
 Main script: bikeshare.py
