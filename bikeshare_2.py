@@ -81,7 +81,13 @@ def load_data(city, month, day):
 
 
 def display_time_stats(data_frame):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
+
+    Args:
+        (dataframe) data_frame - Pandas DataFrame to analyze
+
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -103,7 +109,13 @@ def display_time_stats(data_frame):
 
 
 def display_stations_stats(data_frame):
-    """Displays statistics on the most popular stations and trip."""
+    """
+    Displays statistics on the most popular stations and trip.
+
+    Args:
+        (dataframe) data_frame - Pandas DataFrame to analyze
+
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -126,15 +138,19 @@ def display_stations_stats(data_frame):
 
 
 def display_trip_duration_stats(data_frame):
-    """Displays statistics on the total and average trip duration."""
+    """
+    Displays statistics on the total and average trip duration.
+
+    Args:
+        (dataframe) data_frame - Pandas DataFrame to analyze
+
+    """
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # display total travel time
     print('Total travel time: ', data_frame['Trip Duration'].sum())
 
-    # display mean travel time
     print('Mean travel time: ', data_frame['Trip Duration'].mean())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -142,7 +158,13 @@ def display_trip_duration_stats(data_frame):
 
 
 def display_user_stats(data_frame):
-    """Displays statistics on bikeshare users."""
+    """
+    Displays statistics on bikeshare users.
+
+    Args:
+        (dataframe) data_frame - Pandas DataFrame to analyze
+
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
